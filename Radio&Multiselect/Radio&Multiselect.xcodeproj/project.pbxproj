@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78BD1BA31E85074900CA0440 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BD1BA21E85074900CA0440 /* main.m */; };
+		78BD1BA61E85074900CA0440 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BD1BA51E85074900CA0440 /* AppDelegate.m */; };
+		78BD1BA91E85074900CA0440 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BD1BA81E85074900CA0440 /* HomeViewController.m */; };
+		78BD1BAE1E85074900CA0440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78BD1BAD1E85074900CA0440 /* Assets.xcassets */; };
+		78BD1BB11E85074900CA0440 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78BD1BAF1E85074900CA0440 /* LaunchScreen.storyboard */; };
+		78BD1BBC1E85074900CA0440 /* Radio_MultiselectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BD1BBB1E85074900CA0440 /* Radio_MultiselectTests.m */; };
+		78BD1BC71E85074900CA0440 /* Radio_MultiselectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BD1BC61E85074900CA0440 /* Radio_MultiselectUITests.m */; };
+		78BD1BE21E851A7000CA0440 /* UIView+ZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BD1BDC1E851A7000CA0440 /* UIView+ZLExtension.m */; };
+		78BD1BE31E851A7000CA0440 /* ZLMultiselectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BD1BDF1E851A7000CA0440 /* ZLMultiselectController.m */; };
+		78BD1BE41E851A7000CA0440 /* ZLRadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BD1BE11E851A7000CA0440 /* ZLRadioViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78BD1BB81E85074900CA0440 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78BD1B961E85074900CA0440 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78BD1B9D1E85074900CA0440;
+			remoteInfo = "Radio&Multiselect";
+		};
+		78BD1BC31E85074900CA0440 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78BD1B961E85074900CA0440 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78BD1B9D1E85074900CA0440;
+			remoteInfo = "Radio&Multiselect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78BD1B9E1E85074900CA0440 /* Radio&Multiselect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio&Multiselect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BD1BA21E85074900CA0440 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78BD1BA41E85074900CA0440 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78BD1BA51E85074900CA0440 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78BD1BA71E85074900CA0440 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		78BD1BA81E85074900CA0440 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		78BD1BAD1E85074900CA0440 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78BD1BB01E85074900CA0440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78BD1BB21E85074900CA0440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78BD1BB71E85074900CA0440 /* Radio&MultiselectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Radio&MultiselectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BD1BBB1E85074900CA0440 /* Radio_MultiselectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Radio_MultiselectTests.m; sourceTree = "<group>"; };
+		78BD1BBD1E85074900CA0440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78BD1BC21E85074900CA0440 /* Radio&MultiselectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Radio&MultiselectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BD1BC61E85074900CA0440 /* Radio_MultiselectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Radio_MultiselectUITests.m; sourceTree = "<group>"; };
+		78BD1BC81E85074900CA0440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78BD1BDB1E851A7000CA0440 /* UIView+ZLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZLExtension.h"; sourceTree = "<group>"; };
+		78BD1BDC1E851A7000CA0440 /* UIView+ZLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZLExtension.m"; sourceTree = "<group>"; };
+		78BD1BDE1E851A7000CA0440 /* ZLMultiselectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLMultiselectController.h; sourceTree = "<group>"; };
+		78BD1BDF1E851A7000CA0440 /* ZLMultiselectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLMultiselectController.m; sourceTree = "<group>"; };
+		78BD1BE01E851A7000CA0440 /* ZLRadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLRadioViewController.h; sourceTree = "<group>"; };
+		78BD1BE11E851A7000CA0440 /* ZLRadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLRadioViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78BD1B9B1E85074900CA0440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BD1BB41E85074900CA0440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BD1BBF1E85074900CA0440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78BD1B951E85074900CA0440 = {
+			isa = PBXGroup;
+			children = (
+				78BD1BA01E85074900CA0440 /* Radio&Multiselect */,
+				78BD1BBA1E85074900CA0440 /* Radio&MultiselectTests */,
+				78BD1BC51E85074900CA0440 /* Radio&MultiselectUITests */,
+				78BD1B9F1E85074900CA0440 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78BD1B9F1E85074900CA0440 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78BD1B9E1E85074900CA0440 /* Radio&Multiselect.app */,
+				78BD1BB71E85074900CA0440 /* Radio&MultiselectTests.xctest */,
+				78BD1BC21E85074900CA0440 /* Radio&MultiselectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78BD1BA01E85074900CA0440 /* Radio&Multiselect */ = {
+			isa = PBXGroup;
+			children = (
+				78BD1BDD1E851A7000CA0440 /* Demo */,
+				78BD1BDA1E851A7000CA0440 /* Category */,
+				78BD1BA41E85074900CA0440 /* AppDelegate.h */,
+				78BD1BA51E85074900CA0440 /* AppDelegate.m */,
+				78BD1BA71E85074900CA0440 /* HomeViewController.h */,
+				78BD1BA81E85074900CA0440 /* HomeViewController.m */,
+				78BD1BAD1E85074900CA0440 /* Assets.xcassets */,
+				78BD1BAF1E85074900CA0440 /* LaunchScreen.storyboard */,
+				78BD1BB21E85074900CA0440 /* Info.plist */,
+				78BD1BA11E85074900CA0440 /* Supporting Files */,
+			);
+			path = "Radio&Multiselect";
+			sourceTree = "<group>";
+		};
+		78BD1BA11E85074900CA0440 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78BD1BA21E85074900CA0440 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78BD1BBA1E85074900CA0440 /* Radio&MultiselectTests */ = {
+			isa = PBXGroup;
+			children = (
+				78BD1BBB1E85074900CA0440 /* Radio_MultiselectTests.m */,
+				78BD1BBD1E85074900CA0440 /* Info.plist */,
+			);
+			path = "Radio&MultiselectTests";
+			sourceTree = "<group>";
+		};
+		78BD1BC51E85074900CA0440 /* Radio&MultiselectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78BD1BC61E85074900CA0440 /* Radio_MultiselectUITests.m */,
+				78BD1BC81E85074900CA0440 /* Info.plist */,
+			);
+			path = "Radio&MultiselectUITests";
+			sourceTree = "<group>";
+		};
+		78BD1BDA1E851A7000CA0440 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				78BD1BDB1E851A7000CA0440 /* UIView+ZLExtension.h */,
+				78BD1BDC1E851A7000CA0440 /* UIView+ZLExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		78BD1BDD1E851A7000CA0440 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				78BD1BE01E851A7000CA0440 /* ZLRadioViewController.h */,
+				78BD1BE11E851A7000CA0440 /* ZLRadioViewController.m */,
+				78BD1BDE1E851A7000CA0440 /* ZLMultiselectController.h */,
+				78BD1BDF1E851A7000CA0440 /* ZLMultiselectController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78BD1B9D1E85074900CA0440 /* Radio&Multiselect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78BD1BCB1E85074900CA0440 /* Build configuration list for PBXNativeTarget "Radio&Multiselect" */;
+			buildPhases = (
+				78BD1B9A1E85074900CA0440 /* Sources */,
+				78BD1B9B1E85074900CA0440 /* Frameworks */,
+				78BD1B9C1E85074900CA0440 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Radio&Multiselect";
+			productName = "Radio&Multiselect";
+			productReference = 78BD1B9E1E85074900CA0440 /* Radio&Multiselect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78BD1BB61E85074900CA0440 /* Radio&MultiselectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78BD1BCE1E85074900CA0440 /* Build configuration list for PBXNativeTarget "Radio&MultiselectTests" */;
+			buildPhases = (
+				78BD1BB31E85074900CA0440 /* Sources */,
+				78BD1BB41E85074900CA0440 /* Frameworks */,
+				78BD1BB51E85074900CA0440 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78BD1BB91E85074900CA0440 /* PBXTargetDependency */,
+			);
+			name = "Radio&MultiselectTests";
+			productName = "Radio&MultiselectTests";
+			productReference = 78BD1BB71E85074900CA0440 /* Radio&MultiselectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78BD1BC11E85074900CA0440 /* Radio&MultiselectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78BD1BD11E85074900CA0440 /* Build configuration list for PBXNativeTarget "Radio&MultiselectUITests" */;
+			buildPhases = (
+				78BD1BBE1E85074900CA0440 /* Sources */,
+				78BD1BBF1E85074900CA0440 /* Frameworks */,
+				78BD1BC01E85074900CA0440 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78BD1BC41E85074900CA0440 /* PBXTargetDependency */,
+			);
+			name = "Radio&MultiselectUITests";
+			productName = "Radio&MultiselectUITests";
+			productReference = 78BD1BC21E85074900CA0440 /* Radio&MultiselectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78BD1B961E85074900CA0440 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ZL;
+				TargetAttributes = {
+					78BD1B9D1E85074900CA0440 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7734U6Q8V5;
+						ProvisioningStyle = Automatic;
+					};
+					78BD1BB61E85074900CA0440 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7734U6Q8V5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78BD1B9D1E85074900CA0440;
+					};
+					78BD1BC11E85074900CA0440 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7734U6Q8V5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78BD1B9D1E85074900CA0440;
+					};
+				};
+			};
+			buildConfigurationList = 78BD1B991E85074900CA0440 /* Build configuration list for PBXProject "Radio&Multiselect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78BD1B951E85074900CA0440;
+			productRefGroup = 78BD1B9F1E85074900CA0440 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78BD1B9D1E85074900CA0440 /* Radio&Multiselect */,
+				78BD1BB61E85074900CA0440 /* Radio&MultiselectTests */,
+				78BD1BC11E85074900CA0440 /* Radio&MultiselectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78BD1B9C1E85074900CA0440 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BD1BB11E85074900CA0440 /* LaunchScreen.storyboard in Resources */,
+				78BD1BAE1E85074900CA0440 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BD1BB51E85074900CA0440 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BD1BC01E85074900CA0440 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78BD1B9A1E85074900CA0440 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BD1BE31E851A7000CA0440 /* ZLMultiselectController.m in Sources */,
+				78BD1BA91E85074900CA0440 /* HomeViewController.m in Sources */,
+				78BD1BA61E85074900CA0440 /* AppDelegate.m in Sources */,
+				78BD1BE21E851A7000CA0440 /* UIView+ZLExtension.m in Sources */,
+				78BD1BE41E851A7000CA0440 /* ZLRadioViewController.m in Sources */,
+				78BD1BA31E85074900CA0440 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BD1BB31E85074900CA0440 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BD1BBC1E85074900CA0440 /* Radio_MultiselectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78BD1BBE1E85074900CA0440 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BD1BC71E85074900CA0440 /* Radio_MultiselectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78BD1BB91E85074900CA0440 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78BD1B9D1E85074900CA0440 /* Radio&Multiselect */;
+			targetProxy = 78BD1BB81E85074900CA0440 /* PBXContainerItemProxy */;
+		};
+		78BD1BC41E85074900CA0440 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78BD1B9D1E85074900CA0440 /* Radio&Multiselect */;
+			targetProxy = 78BD1BC31E85074900CA0440 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78BD1BAF1E85074900CA0440 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78BD1BB01E85074900CA0440 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78BD1BC91E85074900CA0440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78BD1BCA1E85074900CA0440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78BD1BCC1E85074900CA0440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = "Radio&Multiselect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangli.Radio-Multiselect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		78BD1BCD1E85074900CA0440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = "Radio&Multiselect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangli.Radio-Multiselect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		78BD1BCF1E85074900CA0440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = "Radio&MultiselectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangli.Radio-MultiselectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radio&Multiselect.app/Radio&Multiselect";
+			};
+			name = Debug;
+		};
+		78BD1BD01E85074900CA0440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = "Radio&MultiselectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangli.Radio-MultiselectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radio&Multiselect.app/Radio&Multiselect";
+			};
+			name = Release;
+		};
+		78BD1BD21E85074900CA0440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = "Radio&MultiselectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangli.Radio-MultiselectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Radio&Multiselect";
+			};
+			name = Debug;
+		};
+		78BD1BD31E85074900CA0440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7734U6Q8V5;
+				INFOPLIST_FILE = "Radio&MultiselectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangli.Radio-MultiselectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Radio&Multiselect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78BD1B991E85074900CA0440 /* Build configuration list for PBXProject "Radio&Multiselect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BD1BC91E85074900CA0440 /* Debug */,
+				78BD1BCA1E85074900CA0440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78BD1BCB1E85074900CA0440 /* Build configuration list for PBXNativeTarget "Radio&Multiselect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BD1BCC1E85074900CA0440 /* Debug */,
+				78BD1BCD1E85074900CA0440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78BD1BCE1E85074900CA0440 /* Build configuration list for PBXNativeTarget "Radio&MultiselectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BD1BCF1E85074900CA0440 /* Debug */,
+				78BD1BD01E85074900CA0440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78BD1BD11E85074900CA0440 /* Build configuration list for PBXNativeTarget "Radio&MultiselectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BD1BD21E85074900CA0440 /* Debug */,
+				78BD1BD31E85074900CA0440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78BD1B961E85074900CA0440 /* Project object */;
+}
